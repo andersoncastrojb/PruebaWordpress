@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@auth0/auth0-react": "^2.0.0",
     "bootstrap": "^5.2.3",
     "isomorphic-unfetch": "^4.0.2",
     "next": "^13.1.2",
