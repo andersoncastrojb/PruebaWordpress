@@ -26,12 +26,13 @@ const Navigation = () => (
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Departments
+            Department
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Infraestructure</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Departments</a></li>
+            <li><a class="dropdown-item" href="#">Administration</a></li>
+            <li><a class="dropdown-item" href="#">Communications</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -39,9 +40,9 @@ const Navigation = () => (
             Training
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Training</a></li>
+            <li><a class="dropdown-item" href="#">Courses</a></li>
+            <li><a class="dropdown-item" href="#">Publications</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -49,9 +50,9 @@ const Navigation = () => (
             Blog
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+            <li><a class="dropdown-item" href="#">News</a></li>
+            <li><a class="dropdown-item" href="#">Events</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -59,9 +60,9 @@ const Navigation = () => (
             Workspace
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Gmail</a></li>
+            <li><a class="dropdown-item" href="#">Jira</a></li>
+            <li><a class="dropdown-item" href="#">Agil</a></li>
           </ul>
         </li>
         <li  class="nav-item dropdown bi bi-bell-fill">
