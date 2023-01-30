@@ -1,17 +1,14 @@
+import Link from "next/link";
+
 const Login = () => {
   return (
     <form>
         <img style ={{height: "30vh", width: "auto"}}  src="Login/favicon-Bebolder.png" class="rounded mx-auto d-block card-img-top pt-5 pb-2" alt="..."/>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Account</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <div className ="container mt-6">
+          <div className ="col-12 text-center">
+            <Link type="button" href="/api/auth/login" class="btn btn-success">Login</Link>
+          </div>
         </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1"/>
-        </div>
-        <button type="submit" class="btn btn-warning">Login</button>
     </form>
   );
 }
