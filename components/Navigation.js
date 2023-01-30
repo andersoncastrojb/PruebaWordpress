@@ -16,9 +16,12 @@ const Navigation = () => (
             Bebolder
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Bebolder</a></li>
+            <li><a class="dropdown-item" href="#">Who we are?</a></li>
+            <li><a class="dropdown-item" href="#">History</a></li>
+            <li><a class="dropdown-item" href="#">Processes</a></li>
+            <li><a class="dropdown-item" href="#">Organization</a></li>
+            <li><a class="dropdown-item" href="#">Carreer</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -26,7 +29,7 @@ const Navigation = () => (
             Departments
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Infraestructure</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
